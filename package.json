@@ -1,0 +1,64 @@
+{
+  "name": "react-native-multiple-selection",
+  "version": "0.0.1",
+  "description": "A simple component to get multiple item from a dropdown list.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quocdai92/react-native-multiple-selection.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "selection",
+    "select",
+    "multiple-select",
+    "multiple-selection"
+  ],
+  "author": "Dai Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quocdai92/react-native-multiple-selection/issues"
+  },
+  "homepage": "https://github.com/quocdai92/react-native-multiple-selection",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/cli-platform-android": "^2.9.0",
+    "@react-native-community/cli-platform-ios": "^2.9.0",
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.11",
+    "@types/react-native": "^0.60.22",
+    "@types/react-test-renderer": "^16.9.1",
+    "react": "16.9.0",
+    "react-native": "0.61.3",
+    "react-native-elements": "^1.2.7",
+    "react-native-vector-icons": "^6.6.0",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/runtime": "^7.7.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.57.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
