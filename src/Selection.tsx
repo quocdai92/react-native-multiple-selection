@@ -1,7 +1,7 @@
 // components/Hello.tsx
 import React from 'react';
-import { Button, StyleSheet, Text, View } from 'react-native';
-import { Input, Badge, Icon } from 'react-native-elements';
+import { StyleSheet, Text, View } from 'react-native';
+import { Badge, Icon } from 'react-native-elements';
 import SelectionAutoComplete from './SelectionAutoComplete';
 
 const initItem: Array<ISelectionItem> = []
@@ -10,7 +10,6 @@ const Selection: React.FC<ISelectionProps> = (props) => {
   const [selectedItems, setSelectedItems] = React.useState(props.setValues ? props.setValues : initItem);
 
   function _handleSelect(item: ISelectionItem) {
-    console.log('select item: ', JSON.stringify(item))
     if (!selectedItems.find(m => m.value == item.value)) {
       setSelectedItems([...selectedItems, item])
     }
@@ -20,7 +19,7 @@ const Selection: React.FC<ISelectionProps> = (props) => {
     let length = selectedItems.length;
     let idx = -1;
     for (let i = 0; i < length; i++) {
-      if (item.value == selectedItems[i].value){
+      if (item.value == selectedItems[i].value) {
         idx = i;
       }
     }

@@ -1,6 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import { Button, Icon, Input } from 'react-native-elements'
+import { View, StyleSheet, ScrollView } from 'react-native';
+import { Button, Input } from 'react-native-elements'
 
 const initState: Array<ISelectionItem> = []
 const SelectionAutoComplete: React.FC<ISelectionAutoCompleteProps> = (props) => {
