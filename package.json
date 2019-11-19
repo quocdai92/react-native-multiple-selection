@@ -2,7 +2,7 @@
   "name": "react-native-multiple-selection",
   "version": "0.1.2",
   "description": "A simple component to get multiple item from a dropdown list.",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/quocdai92/react-native-multiple-selection.git"
