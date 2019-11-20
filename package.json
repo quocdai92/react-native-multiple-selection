@@ -10,6 +10,9 @@
   "scripts": {
     "build": "tsc"
   },
+  "files": [
+    "build"
+  ],
   "keywords": [
     "react-native",
     "react-component",
